@@ -17,12 +17,12 @@ const Hero = () => {
           </span>
         </h1>
       </div>
-      <div className="mt-8 px-14">
-        <h1 className="text-center md:px-48 text-4xl md:leading-snug md:text-5xl text-gray-500 font-semibold">
+      <div className="mt-8 px-4 md:px-0 max-w-4xl m-auto">
+        <h1 className="text-center text-4xl md:leading-snug md:text-6xl text-gray-500 font-semibold">
           Explore gift cards and{" "}
           <span className="text-blue-400">digital payments solutions</span>
         </h1>
-        <p className="mt-7 text-center md:text-2xl text-[18px] md:px-56 text-gray-600">
+        <p className="mt-7 text-center md:text-2xl text-[16px] text-gray-600">
           Cardtonic is the best platform to buy and sell gift cards, pay bills,
           buy gadgets and get virtual dollar cards.
         </p>

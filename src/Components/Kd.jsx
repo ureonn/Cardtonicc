@@ -129,13 +129,13 @@ const Kd = () => {
         <h1 className="text-4xl px-24 font-medium text-gray-400">
           Testimonials & News
         </h1>
-        <div className="md:flex md:p-0 px-24 justify-around gap-2">
-          <div className="bg-gray-200 w-full rounded-3xl p-7 mt-9">
+        <div className="md:flex md:p-0 px-24 justify-around gap-2 overflow-hidden animate-scroll-left">
+          <div className="bg-gray-200 max-w-md h-[500px] rounded-3xl p-7 mt-9">
             <h1 className="text-8xl text-sky-800">"</h1>
             <p className="text-xl md:hidden text-gray-500">
               Cardtonic is fast, relaible, and doesn't delay transactions.
             </p>
-            <p className="text-xl text-gray-500 hidden md:flex">
+            <p className="text-2xl font-medium text-gray-500 hidden md:flex">
               I was able to buy a sephora gift card within a minute. Quite
               impressive
             </p>
@@ -143,7 +143,7 @@ const Kd = () => {
               <span className="text-xl flex sm:hidden font-medium text-gray-700">
                 @dodonmaso{" "}
               </span>
-              <span className="hidden md:grid font-medium text-sky-700">
+              <span className="hidden text-xl md:grid font-medium text-sky-700">
                 Babalola Muiz <span className="text-[14px]">App Store</span>
               </span>
               <span>
@@ -151,7 +151,7 @@ const Kd = () => {
               </span>
             </h1>
           </div>
-          <div className="bg-gray-200 hidden w-full md:grid rounded-3xl p-7 mt-9">
+          <div className="bg-gray-200 hidden md:grid h-[500px] max-w-md rounded-3xl p-7 mt-9">
             <h1 className="text-8xl text-sky-800">"</h1>
             <p className="text-xl text-gray-500">
               I love the way their customer service responded to me.
@@ -165,7 +165,7 @@ const Kd = () => {
               </span>
             </h1>
           </div>
-          <div className="bg-gray-200 rounded-3xl hidden w-full md:grid p-7 mt-9">
+          <div className="bg-gray-200 h-[500px] md:grid rounded-3xl hidden max-w-full p-7 mt-9">
             <h1 className="text-8xl text-sky-800">"</h1>
             <p className="text-xl text-gray-500">
               The withdrawal was quiicker than I expected. Keep it up guys.
@@ -179,14 +179,14 @@ const Kd = () => {
               </span>
             </h1>
           </div>
-          <div className="bg-gray-200 rounded-3xl hidden w-full md:grid p-7 mt-9">
+          <div className="bg-gray-200 h-[500px] md:grid rounded-3xl hidden max-w-full p-7 mt-9">
             <h1 className="text-8xl text-sky-800">"</h1>
-            <p className="text-xl text-gray-500">
+            <p className="text-2xl font-medium text-gray-500">
               I highly rate this App. I recommended it to my brothers and
               friends. And they also love it.
             </p>
             <h1 className="flex justify-between mt-20 items-center">
-              <span className="text-[16px] tracking-tighter grid text-sky-700 font-medium">
+              <span className="text-xl tracking-tighter grid text-sky-700 font-medium">
                 Nuruudeen Abduralrasaq
                 <span className="text-[14px]">App Store</span>
               </span>
@@ -195,13 +195,13 @@ const Kd = () => {
               </span>
             </h1>
           </div>
-          <div className="bg-gray-200 rounded-3xl hidden w-full md:grid p-7 mt-9">
+          <div className="bg-gray-200 h-[500px] md:grid rounded-3xl hidden max-w-full p-7 mt-9">
             <h1 className="text-8xl text-sky-800">"</h1>
-            <p className="text-xl text-gray-500">
+            <p className="text-2xl font-medium text-gray-500">
               Cardtonic is fast, relaible, and doesn't delay transactions.
             </p>
             <h1 className="flex justify-between mt-20 items-center">
-              <span className="text-[16px] tracking-tighter grid text-sky-700 font-medium">
+              <span className="text-xl tracking-tighter grid text-sky-700 font-medium">
                 Nuruudeen
                 <span className="text-[14px]">App Store</span>
               </span>
@@ -211,15 +211,15 @@ const Kd = () => {
             </h1>
           </div>
         </div>
-        <div className="justify-around gap-9 mx-24 my-24 flex">
-          <span>
+        <div className="justify-around flex-wrap gap-9 mx-24 my-24 flex">
+          <span className="max-w-28">
             <img
               className=""
               src="Screenshot_28-11-2024_10625_cardtonic.com-Photoroom.png"
               alt=""
             />
           </span>
-          <span>
+          <span className="max-w-40">
             <img src="Naija-Photoroom.png" alt="" />
           </span>
           <span>
@@ -228,13 +228,13 @@ const Kd = () => {
               alt=""
             />
           </span>
-          <span>
+          <span className="max-w-md">
             <img
               src="Screenshot_28-11-2024_10745_cardtonic.com-Photoroom.png"
               alt=""
             />
           </span>
-          <span>
+          <span className="max-w-md">
             <img
               src="Screenshot_28-11-2024_10819_cardtonic.com-Photoroom.png"
               alt=""
@@ -253,22 +253,22 @@ const Kd = () => {
               Experience the best of Cardtonic on your phone or tablet.
               Available for iOS and Android operating systems.
             </p>
-            <div className="mt-9 mx-14 pb-14">
+            <div className="mt-9  pb-14">
               <button className="w-full flex items-center justify-center mt-4 text-white bg-black rounded-full p-7 font-medium">
-                <span className="pr-2 flex justify-center items-center">
-                  <span className="pr-2 text-white">
+                <span className="pr-1 flex justify-center items-center">
+                  <span className="pr-1 text-white">
                     <GrApple size={30} />
                   </span>
                 </span>
-                Get on iphone
+                <span className="text-[14px]">Get on iphone</span>
               </button>
               <button className="w-full flex items-center justify-center mt-4 text-white bg-green-600 rounded-full p-7 font-medium">
                 <span className="pr-2 flex justify-center items-center">
-                  <span className="pr-2 text-white">
+                  <span className="pr-1 text-white">
                     <IoLogoGooglePlaystore size={30} />
                   </span>
                 </span>
-                Get on Android
+                <span className="text-[14px]">Get on Android</span>
               </button>
             </div>
           </div>

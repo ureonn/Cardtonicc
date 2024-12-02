@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="nav flex justify-between px-10 p-2 shadow-lg">
+      <div className="nav  flex w-[100%] justify-between px-10 p-2 shadow-lg">
         <h1 className="flex">
           <img className="h-9 md:h-12" src="logo.jpeg" alt="" />
           <span className="sm:text-xs md:text-xl items-center flex font-medium text-blue-950">
